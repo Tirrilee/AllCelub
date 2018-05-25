@@ -183,19 +183,19 @@ body{
     height: 750px;
     margin: auto;
     background-image:
-    radial-gradient(ellipse at center, #FFF0 20%, #010413 50%, #010413 110%, transparent),
+    radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
     -webkit-gradient(linear, left top, right top, from(#d93df5), color-stop(#f95656), color-stop(#f38bafd1), color-stop(#f95656), to(#d93df5));
     background-image:
-    -webkit-radial-gradient(center, ellipse, #FFF0 20%, #010413 50%, #010413 110%, transparent),
+    -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
     -webkit-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
     background-image:
-    -moz-radial-gradient(center, ellipse, #FFF0 20%, #010413 50%, #010413 110%, transparent),
+    -moz-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
     -moz-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
     background-image:
-    -o-radial-gradient(center, ellipse, #FFF0 20%, #010413 50%, #010413 110%, transparent),
+    -o-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
     -o-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
     background-image:
-    radial-gradient(ellipse at center, #FFF0 20%, #010413 50%, #010413 110%, transparent),
+    radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
     linear-gradient(to right, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
     background-position: 0 -100px;
 }
