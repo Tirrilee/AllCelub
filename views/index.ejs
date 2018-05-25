@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>All Celub</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script
+	  	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  	crossorigin="anonymous"></script>
+   	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- CountDown Lib -->
+    <script src="/stylesheets/countdown/jquery.countdown.min.js"></script>
+   
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p class="logo" style="display: block !important">AllCelub</p>
+	<div class="outer">
+	    <div class="middle">
+	        <div class="inner">
+	            <div class="light">
+	                <div class="sun">
+	                    <p class="comming" style="display: block !important">
+	                        &nbsp;COMMING SOON
+	                        <p id="clock" style="display: block !important"></p>
+	                        <div id="apply"><a class="btn" href="#">Apply</a></div>
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        $('#clock').countdown('2018/12/1').on('update.countdown', function(event) {
+	            var $this = $(this).html(event.strftime(''
+	                + '<span>%-w</span> week%!w '
+	                + '<span>%-d</span> day%!d '
+	                + '<span>%H</span> hr '
+	                + '<span>%M</span> min '
+	                + '<span>%S</span> sec'));
+	        });
+	    });
+	</script>
   </body>
 </html>
