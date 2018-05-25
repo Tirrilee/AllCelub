@@ -227,8 +227,8 @@ p{
 }
 #clock{
     width: 700px;
-    margin-top: 50px;
-    font-size: 20px;
+    margin-top: 80px;
+    font-size: 16px;
     position: absolute;
     top: 0px;
     color: #CCC;
