@@ -183,20 +183,20 @@ body{
     height: 750px;
     margin: auto;
     background-image:
-    radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
+    radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 20%, rgb(1, 4, 19) 50%, rgb(1, 4, 19) 110%, transparent),
     -webkit-gradient(linear, left top, right top, from(#d93df5), color-stop(#f95656), color-stop(#f38bafd1), color-stop(#f95656), to(#d93df5));
     background-image:
-    -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
-    -webkit-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
+    -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, rgb(1, 4, 19) 50%, rgb(1, 4, 19) 110%, transparent),
+    -webkit-linear-gradient(left, rgb(217, 61, 245), rgb(249, 86, 86), rgba(243, 139, 175, 0.82), rgb(249, 86, 86), rgb(217, 61, 245));
     background-image:
-    -moz-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
-    -moz-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
+    -moz-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, rgb(1, 4, 19) 50%, rgb(1, 4, 19) 110%, transparent),
+    -moz-linear-gradient(left, rgb(217, 61, 245), rgb(249, 86, 86), rgba(243, 139, 175, 0.82), rgb(249, 86, 86), rgb(217, 61, 245));
     background-image:
-    -o-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
-    -o-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
+    -o-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 20%, rgb(1, 4, 19) 50%, rgb(1, 4, 19) 110%, transparent),
+    -o-linear-gradient(left, rgb(217, 61, 245), rgb(249, 86, 86), rgba(243, 139, 175, 0.82), rgb(249, 86, 86), rgb(217, 61, 245));
     background-image:
-    radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 20%, #010413 50%, #010413 110%, transparent),
-    linear-gradient(to right, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
+    radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 20%, rgb(1, 4, 19) 50%, rgb(1, 4, 19) 110%, transparent),
+    linear-gradient(to right, rgb(217, 61, 245), rgb(249, 86, 86), rgba(243, 139, 175, 0.82), rgb(249, 86, 86), rgb(217, 61, 245));
     background-position: 0 -100px;
 }
 .sun {
@@ -204,13 +204,13 @@ body{
     height: 700px;
     margin: auto;
     background-image:
-    -webkit-radial-gradient(50%, circle, #000 0, #04060e 50%, rgba(0, 0, 0, 0) 51%);
+    -webkit-radial-gradient(50%, circle, rgba(0, 0, 0) 0, rgba(4, 6, 14, 1) 50%, rgba(0, 0, 0, 0) 51%);
     background-image:
-    -moz-radial-gradient(50%, circle, #000 0, #04060e 50%, rgba(0, 0, 0, 0) 51%);
+    -moz-radial-gradient(50%, circle, rgba(0, 0, 0) 0, rgba(4, 6, 14, 1) 50%, rgba(0, 0, 0, 0) 51%);
     background-image:
-    -o-radial-gradient(50%, circle, #000 0, #04060e 50%, rgba(0, 0, 0, 0) 51%);
+    -o-radial-gradient(50%, circle, rgba(0, 0, 0) 0, rgba(4, 6, 14, 1) 50%, rgba(0, 0, 0, 0) 51%);
     background-image:
-    radial-gradient(circle at 50%, #000 0, #04060e 50%, rgba(0, 0, 0, 0) 51%);
+    radial-gradient(circle at 50%, rgba(0, 0, 0) 0, rgba(4, 6, 14, 1) 50%, rgba(0, 0, 0, 0) 51%);
     background-position: 0 0;
     color: #FFF;
     position: relative;
