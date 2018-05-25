@@ -169,6 +169,8 @@ a:hover{
     letter-spacing: 4px;
 }*/
 
+
+
 body{
     width: 100%;
     height: 100vh;
@@ -187,6 +189,9 @@ body{
     -webkit-radial-gradient(center, ellipse, #FFF0 20%, #010413 50%, #010413 110%, transparent),
     -webkit-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
     background-image:
+    -moz-radial-gradient(center, ellipse, #FFF0 20%, #010413 50%, #010413 110%, transparent),
+    -moz-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
+    background-image:
     -o-radial-gradient(center, ellipse, #FFF0 20%, #010413 50%, #010413 110%, transparent),
     -o-linear-gradient(left, #d93df5, #f95656, #f38bafd1, #f95656, #d93df5);
     background-image:
@@ -200,6 +205,8 @@ body{
     margin: auto;
     background-image:
     -webkit-radial-gradient(50%, circle, #000 0, #04060e 50%, rgba(0, 0, 0, 0) 51%);
+    background-image:
+    -moz-radial-gradient(50%, circle, #000 0, #04060e 50%, rgba(0, 0, 0, 0) 51%);
     background-image:
     -o-radial-gradient(50%, circle, #000 0, #04060e 50%, rgba(0, 0, 0, 0) 51%);
     background-image:
